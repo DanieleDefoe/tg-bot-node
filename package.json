@@ -1,0 +1,20 @@
+{
+  "name": "tg-node-app",
+  "version": "1.0.0",
+  "description": "Telegram bot server",
+  "main": "index.js",
+  "author": "Abuzar",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
